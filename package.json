@@ -21,6 +21,7 @@
     "@types/node": "^13.1.4",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
+    "clipboardy": "^2.1.0",
     "cypress": "^3.8.1",
     "typescript": "^3.7.4"
   }
