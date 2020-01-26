@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "test": "cypress run",
+    "test": "jest && cypress run",
+    "test:unit": "jest --watch",
     "test:e2e": "cypress open"
   },
   "dependencies": {
@@ -23,6 +24,11 @@
     "@types/react-dom": "^16.9.4",
     "clipboardy": "^2.1.0",
     "cypress": "^3.8.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^24.9.0",
+    "jest-css-modules": "^2.1.0",
+    "jest-enzyme": "^7.1.2",
     "typescript": "^3.7.4"
   }
 }
