@@ -13,7 +13,7 @@ function IndexPage() {
   }
 
   function getLink() {
-    const url = `${location.origin}/search?q=${query}`;
+    const url = `${location.origin}/search?q=${encodeURI(query)}`;
     copyToClipboard(url);
   }
 
